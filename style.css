@@ -1,0 +1,88 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#introduction{
+    background-color: #0CC0DF;
+    height: 85vh;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.profile-image{
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.my-name{ 
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.my-intro{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #D9D9D9;
+    margin-left: 40px;
+    padding-right: 400px;
+}
+
+.skills-header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.my-skills{
+    color: #0CC0DF;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+}
+
+.skills-info{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 200px 50px 200px;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #0CC0DF;
+}
+
+.achievement{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.list{
+    font-size: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
