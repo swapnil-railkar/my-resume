@@ -106,8 +106,6 @@ body{
     color: white;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .text{
@@ -116,22 +114,11 @@ body{
     color: white;
 }
 
-#home-id:hover{
+#item-id:hover > h1{
     background-color: white;
     color: #0CC0DF;
 }
 
-#projects-id:hover{
+#item-id:hover{
     background-color: white;
-    color: #0CC0DF;
-}
-
-#experience-id:hover{
-    background-color: white;
-    color: #0CC0DF;
-}
-
-#contact-id:hover{
-    background-color: white;
-    color: #0CC0DF;
 }
