@@ -63,7 +63,7 @@ body{
 }
 
 .titles{
-    background-color: #0CC0DF;
+    background-color: black;
     display: inline-flex;
     flex-direction: row;
     height: fit-content;
@@ -85,7 +85,7 @@ body{
 
 #item-id:hover > h1{
     background-color: white;
-    color: #0CC0DF;
+    color: black;
 }
 
 #item-id:hover{
