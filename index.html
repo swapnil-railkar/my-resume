@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,33 +10,53 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet"/>
-    <link href="home.css" rel="stylesheet"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="./css files/style.css" rel="stylesheet" />
+    <link href="./css files/home.css" rel="stylesheet" />
+    <link href="./css files/contact.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class = "container-flex">
-        <div class = "titles">
+    <div class="container-flex">
+        <div class="titles">
             <div id="item-id">
-                <h1 class="header text">HOME</h1>
+                <h1 class="header text" id="home-header">HOME</h1>
             </div>
             <div id="item-id">
-                <h1 class="header text">PROJECTS</h1>
+                <h1 class="header text" id="projects-header">PROJECTS</h1>
             </div>
             <div id="item-id">
-                <h1 class="header text">EXPERIENCE</h1>
-            </div> 
-           <div id="item-id">
-                <h1 class="header text">CONTACT</h1>
-           </div>
+                <h1 class="header text" id="experiance-header">EXPERIENCE</h1>
+            </div>
+            <div class="dropdown" id="item-id">
+                <h1 class="header text" id="contact-header">CONTACT</h1>
+                <div class="contact-container">
+                    <div class="account-info">
+                        <img src="Images/java.png" class="account-img">
+                        <a class="account-name" href="https://www.linkedin.com/in/swapnil-railkar-579208263/"
+                            target="_blank">LinkdIn</a>
+                    </div>
+                    <div class="account-info">
+                        <img src="Images/java.png" class="account-img">
+                        <a class="account-name"
+                            href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJZdBjfGXLkkTgbNVXDLSsQLbQdnqCZbQzqlPNmztrxhVXTLCRXSVfVBLWNFcGpZZbDzqsV"
+                            target="_blank">Mail</a>
+                    </div>
+                    <div class="account-info">
+                        <img src="Images/java.png" class="account-img">
+                        <a class="account-name" href="https://github.com/swapnil-railkar" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class = "content">
+        <div class="content">
 
         </div>
     </div>
 
-    <section class = "container-grid" id = "home">
+    <section class="container-grid" id="home">
         <div class="profile-img">
             <img class="my-image" src="./Images/TacoCloud.jpg">
             <h1 class="global-title name">Swapnil Railkar</h1>
@@ -44,14 +65,14 @@
         <div class="about-me">
             <h2 class="global-title default-heading">About Me</h2>
             <h2 class="global-content default-content">
-                Insightful computer engineer looking 
-                for opportunity that will allow me to utilize my 
-                problem-solving skills and attention 
-                to detail to further develop my skills and gain 
+                Insightful computer engineer looking
+                for opportunity that will allow me to utilize my
+                problem-solving skills and attention
+                to detail to further develop my skills and gain
                 experience in field of computer engineering.
             </h2>
         </div>
-        <div class = "my-info">
+        <div class="my-info">
         </div>
         <div class="my-education">
             <h1 class="global-title default-heading">Education</h1>
@@ -60,20 +81,18 @@
             <h4 class="global-content default-content institute">2019-2023</h4>
         </div>
     </section>
-    
-    <section id = "projects">
+
+    <section id="projects">
         <h1> On projects</h1>
     </section>
 
-    <section id = "experience">
+    <section id="experience">
         <h1> On projects</h1>
-    </section>
-
-    <section id = "contact">
-        <h1> On contact</h1>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./main.js"></script>
-    <script src="./home.js"></script>
+    <script src="./script files/main.js"></script>
+    <script src="./script files/contact.js"></script>
+    <script src="./script files/home.js"></script>
 </body>
+
 </html>
